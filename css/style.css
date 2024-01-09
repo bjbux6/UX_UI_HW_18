@@ -1,0 +1,73 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.logo {
+    width: 23%;
+    padding: 1%;
+}
+
+nav {
+    width: 73%;
+    padding-left: 750px;
+    
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    
+}
+
+.logo {
+    text-align: center;
+}
+
+.heroImg{
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #373738;
+    padding: 1%;
+    color: white;
+    
+    
+}
+
+footer, ul {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 320px ;
+    padding-left: 320px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+ul li {
+    margin-right: 50px;
+}
+
+button {
+    background-color: #35A75C;
+    border: none;
+    color: white;
+    padding: 16px 16px;
+    font-size: 12px;
+    border-radius: 4px;
+    width: 143px;
+}
+.projectView {
+width: 1000px;
+  border: 1px solid gray;
+  padding: 150px;
+  margin: 20px;
+  border-radius: 8px;
+}
