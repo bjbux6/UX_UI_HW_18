@@ -64,10 +64,20 @@ button {
     border-radius: 4px;
     width: 143px;
 }
-.projectView {
-width: 1000px;
-  border: 1px solid gray;
-  padding: 150px;
-  margin: 20px;
-  border-radius: 8px;
+
+.flexContainer {
+    display: flex;
+    max-height: 1200px;
+    margin: 0 auto;
+    border: 2px solid black;
+ 
+}
+
+.flex-item {
+    background-color: lightgray;
+    padding: 2rem;
+}
+
+.workGrid {
+    display: grid;
 }
