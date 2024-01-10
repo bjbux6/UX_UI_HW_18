@@ -67,17 +67,33 @@ button {
 
 .flexContainer {
     display: flex;
-    max-height: 1200px;
     margin: 0 auto;
-    border: 2px solid black;
+  justify-content: space-between;
  
 }
 
 .flex-item {
     background-color: lightgray;
-    padding: 2rem;
+    padding: 10rem;
+    margin: 5px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
 }
+   
 
 .workGrid {
     display: grid;
+    grid-gap: 50px;
+}
+
+.gridItem {
+    border: 1px solid lightgray;
+    padding: 10rem;
+    border-radius: 16px;
+}
+
+@media only screen and (max-width: 600) {
+    .column {
+        width: 50%
+    }
 }
